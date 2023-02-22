@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="测试" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\D\WorkIDE\Maven3.8.6\apache-maven-3.8.6\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../WorkIDE/Maven3.8.6/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="C:\D\WorkIDE\Maven3.8.6\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="2M2eh9ECtbm6kAwaI3sX8um7Ldn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "spring.configuration.checksum": "56a21e623dae81cd6ef50e2d86c6797b",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootJpaApplication">
+    <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo6Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo6Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo8" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo8Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo9Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo9" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo9Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_JPA" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_jpa.SpringBootJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zhangxiaohu\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="" />
+      <created>1676970221122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676970221122</updated>
+      <workItem from="1676970223196" duration="549000" />
+      <workItem from="1676970796454" duration="542000" />
+      <workItem from="1676971356166" duration="624000" />
+      <workItem from="1676971996385" duration="1843000" />
+      <workItem from="1677030149876" duration="1814000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1676970343770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970343770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试">
+      <created>1676970817666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970817666</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1676971028028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676971028028</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试">
+      <created>1676971876523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676971876523</updated>
+    </task>
+    <task id="LOCAL-00005" summary="测试">
+      <created>1676971905061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676971905061</updated>
+    </task>
+    <task id="LOCAL-00006" summary="测试">
+      <created>1676971908748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676971908748</updated>
+    </task>
+    <task id="LOCAL-00007" summary="测试">
+      <created>1676972026041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676972026041</updated>
+    </task>
+    <task id="LOCAL-00008" summary="测试">
+      <created>1676973269567</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676973269567</updated>
+    </task>
+    <task id="LOCAL-00009" summary="测试">
+      <created>1676973693915</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676973693915</updated>
+    </task>
+    <task id="LOCAL-00010" summary="测试">
+      <created>1677030198891</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677030198891</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_PATCH_IN_EXPLORER" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/demo" />
+      <path value="$PROJECT_DIR$/demo1" />
+      <path value="$PROJECT_DIR$/demo2" />
+      <path value="$PROJECT_DIR$/demo3" />
+      <path value="$PROJECT_DIR$/demo4" />
+      <path value="$PROJECT_DIR$/demo5" />
+      <path value="$PROJECT_DIR$/demo6" />
+      <path value="$PROJECT_DIR$/demo7" />
+      <path value="$PROJECT_DIR$/demo8" />
+      <path value="$PROJECT_DIR$/demo9" />
+      <path value="$PROJECT_DIR$/SpringBoot_JPA" />
+    </ignored-roots>
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
