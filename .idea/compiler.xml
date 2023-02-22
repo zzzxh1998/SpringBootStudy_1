@@ -22,10 +22,12 @@
       <module name="demo8" target="1.8" />
       <module name="demo9" target="1.8" />
       <module name="microservice-getway-zull" target="1.8" />
+      <module name="SpringBoot_FluentValidator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot_FluentValidator" options="-parameters" />
       <module name="SpringBoot_JPA" options="-parameters" />
       <module name="SpringBoot_MybatisGenerator" options="-parameters" />
       <module name="SpringBoot_Thread" options="-parameters" />
