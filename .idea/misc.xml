@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SpringBoot_JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot_Thread/pom.xml" />
       </list>
     </option>
   </component>
