@@ -1,0 +1,9 @@
+package com.xiaohu.springboot_token.entity;
+
+import lombok.Data;
+
+@Data
+public class User {
+    private String username;
+    private String password;
+}

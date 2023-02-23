@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/SpringBoot_JPA/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_Thread/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_MybatisGenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot_Token/pom.xml" />
+        <option value="$PROJECT_DIR$/SB_Anno_Value/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot_Quartz_MEMORY/pom.xml" />
       </list>
     </option>
   </component>

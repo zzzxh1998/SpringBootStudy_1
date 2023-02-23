@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="整合mybatisgenerator">
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/src/main/java/com/xiaohu/sb_anno_value/SbAnnoValueApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/src/test/java/com/xiaohu/sb_anno_value/SbAnnoValueApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +75,11 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/D/JavaWorkPlace/JavaCode/SpringBootStudy",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "56a21e623dae81cd6ef50e2d86c6797b",
+    "spring.configuration.checksum": "97daa5bcc9489f1b68ce9968ac263991",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,10 +88,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xiaohu.springboot_token.utils" />
       <recent name="com.xiaohu.springboot_fluentvalidator.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMybatisGeneratorApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootQuartzMemoryApplication">
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
@@ -141,6 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SbAnnoValueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SB_Anno_Value" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.sb_anno_value.SbAnnoValueApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootFluentValidatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot_FluentValidator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_fluentvalidator.SpringBootFluentValidatorApplication" />
@@ -162,9 +184,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootQuartzMemoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_Quartz_MEMORY" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_quartz_memory.SpringBootQuartzMemoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootQuartzMySqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_Quartz_MySQL" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_quartz_mysql.SpringBootQuartzMySqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootThreadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot_Thread" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_thread.SpringBootThreadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootTokenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_Token" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_token.SpringBootTokenApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +229,8 @@
       <workItem from="1676971356166" duration="624000" />
       <workItem from="1676971996385" duration="1843000" />
       <workItem from="1677030149876" duration="12377000" />
+      <workItem from="1677118480760" duration="5362000" />
+      <workItem from="1677135059022" duration="4617000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1676970343770</created>
@@ -330,6 +375,8 @@
       <path value="$PROJECT_DIR$/SpringBoot_JPA" />
       <path value="$PROJECT_DIR$/SpringBoot_Thread" />
       <path value="$PROJECT_DIR$/SpringBoot_MybatisGenerator" />
+      <path value="$PROJECT_DIR$/SpringBoot_Token" />
+      <path value="$PROJECT_DIR$/SpringBoot_Quartz_MEMORY" />
     </ignored-roots>
     <MESSAGE value="测试" />
     <MESSAGE value="整合JPA" />
