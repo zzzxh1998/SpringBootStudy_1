@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="整合Quartz">
+    <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="整合Quartz,使用mysql存储指令">
+      <change afterPath="$PROJECT_DIR$/SB_Gateway_Nacos/src/main/java/com/xiaohu/SbGatewayNacosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\D\WorkIDE\Maven3.8.6\apache-maven-3.8.6\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../WorkIDE/Maven3.8.6/apache-maven-3.8.6" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../WorkIDE/Maven3.8.6/apache-maven-3.8.6" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="C:\D\WorkIDE\Maven3.8.6\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -64,12 +66,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/D/JavaWorkPlace/JavaCode/SpringBootStudy_1/SpringBoot_MYSQL/src/main/java/com/xiaohu/springboot_mysql",
+    "last_opened_file_path": "C:/D/JavaCode/SpringBootStudy_1",
     "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "f31a50bfdaf29e6296e4554643f9aca6",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28390804",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "906ce3e2c2cf2453d10c798795e0ffcd",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,8 +86,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\D\JavaWorkPlace\JavaCode\SpringBootStudy_1\SpringBoot_MYSQL\src\main\java\com\xiaohu\springboot_mysql" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xiaohu" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMysqlApplication">
+  <component name="RunManager" selected="Spring Boot.SbGatewayApplication">
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
@@ -156,6 +161,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SbGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SB_Gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.sb_gateway.SbGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SbGatewayNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="SB_Gateway_Nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.SbGatewayNacosApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SbGetwayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SB_Getway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.SbGetwayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootFluentValidatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot_FluentValidator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_fluentvalidator.SpringBootFluentValidatorApplication" />
@@ -212,6 +239,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SbGatewayApplication" />
+      <item itemvalue="Spring Boot.SbGetwayApplication" />
+      <item itemvalue="Spring Boot.Demo1Application" />
+      <item itemvalue="Spring Boot.Demo2Application" />
+      <item itemvalue="Spring Boot.Demo3Application" />
+      <item itemvalue="Spring Boot.Demo4Application" />
+      <item itemvalue="Spring Boot.Demo5Application" />
+      <item itemvalue="Spring Boot.Demo6Application" />
+      <item itemvalue="Spring Boot.Demo8Application" />
+      <item itemvalue="Spring Boot.Demo9Application" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.SbAnnoValueApplication" />
+      <item itemvalue="Spring Boot.SbGatewayNacosApplication" />
+      <item itemvalue="Spring Boot.SpringBootFluentValidatorApplication" />
+      <item itemvalue="Spring Boot.SpringBootJpaApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisGeneratorApplication" />
+      <item itemvalue="Spring Boot.SpringBootMysqlApplication" />
+      <item itemvalue="Spring Boot.SpringBootQuartzMemoryApplication" />
+      <item itemvalue="Spring Boot.SpringBootQuartzMySqlApplication" />
+      <item itemvalue="Spring Boot.SpringBootThreadApplication" />
+      <item itemvalue="Spring Boot.SpringBootTokenApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -231,7 +281,9 @@
       <workItem from="1677030149876" duration="12377000" />
       <workItem from="1677118480760" duration="5362000" />
       <workItem from="1677135059022" duration="5004000" />
-      <workItem from="1677201133167" duration="4368000" />
+      <workItem from="1677201133167" duration="5359000" />
+      <workItem from="1677216701329" duration="9205000" />
+      <workItem from="1677227451642" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1676970343770</created>
@@ -338,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677145308154</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="整合Quartz,使用mysql存储指令">
+      <created>1677213616575</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677213616575</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,13 +445,18 @@
       <path value="$PROJECT_DIR$/SpringBoot_Token" />
       <path value="$PROJECT_DIR$/SpringBoot_Quartz_MEMORY" />
       <path value="$PROJECT_DIR$/SpringBoot_MYSQL" />
+      <path value="$PROJECT_DIR$/SB_Anno_Value" />
+      <path value="$PROJECT_DIR$/SB_Gateway_Nacos" />
+      <path value="$PROJECT_DIR$/SB_Getway" />
+      <path value="$PROJECT_DIR$/SB_Gateway" />
     </ignored-roots>
     <MESSAGE value="测试" />
     <MESSAGE value="整合JPA" />
     <MESSAGE value="整合多线程" />
     <MESSAGE value="整合mybatisgenerator" />
     <MESSAGE value="整合Quartz" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合Quartz" />
+    <MESSAGE value="整合Quartz,使用mysql存储指令" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合Quartz,使用mysql存储指令" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

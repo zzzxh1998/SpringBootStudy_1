@@ -9,6 +9,7 @@
         <module name="SpringBoot_Thread" />
         <module name="SpringBoot_MYSQL" />
         <module name="SpringBoot_MybatisGenerator" />
+        <module name="SB_Gateway_Nacos" />
         <module name="SpringBoot_Token" />
         <module name="SpringBoot_JPA" />
         <module name="SB_Anno_Value" />
@@ -26,6 +27,8 @@
       <module name="demo8" target="1.8" />
       <module name="demo9" target="1.8" />
       <module name="microservice-getway-zull" target="1.8" />
+      <module name="SB_Gateway" target="1.5" />
+      <module name="SB_Getway" target="1.8" />
       <module name="SpringBoot_FluentValidator" target="1.8" />
       <module name="SpringBoot_Quartz_MySQL" target="1.8" />
     </bytecodeTargetLevel>
@@ -33,6 +36,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SB_Anno_Value" options="-parameters" />
+      <module name="SB_Gateway" options="" />
+      <module name="SB_Gateway_Nacos" options="-parameters" />
+      <module name="SB_Getway" options="-parameters" />
       <module name="SpringBoot_FluentValidator" options="-parameters" />
       <module name="SpringBoot_JPA" options="-parameters" />
       <module name="SpringBoot_MYSQL" options="-parameters" />
