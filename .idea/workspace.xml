@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="整合mybatisgenerator">
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/src/main/java/com/xiaohu/sb_anno_value/SbAnnoValueApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SB_Anno_Value/src/test/java/com/xiaohu/sb_anno_value/SbAnnoValueApplicationTests.java" afterDir="false" />
+    <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="整合Quartz">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,12 +64,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/D/JavaWorkPlace/JavaCode/SpringBootStudy",
+    "last_opened_file_path": "C:/D/JavaWorkPlace/JavaCode/SpringBootStudy_1/SpringBoot_MYSQL/src/main/java/com/xiaohu/springboot_mysql",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "97daa5bcc9489f1b68ce9968ac263991",
+    "spring.configuration.checksum": "f31a50bfdaf29e6296e4554643f9aca6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,8 +81,11 @@
       <recent name="com.xiaohu.springboot_token.utils" />
       <recent name="com.xiaohu.springboot_fluentvalidator.utils" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\JavaWorkPlace\JavaCode\SpringBootStudy_1\SpringBoot_MYSQL\src\main\java\com\xiaohu\springboot_mysql" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootQuartzMemoryApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootMysqlApplication">
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
@@ -184,6 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootMysqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_MYSQL" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_mysql.SpringBootMysqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootQuartzMemoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot_Quartz_MEMORY" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_quartz_memory.SpringBootQuartzMemoryApplication" />
@@ -230,7 +230,8 @@
       <workItem from="1676971996385" duration="1843000" />
       <workItem from="1677030149876" duration="12377000" />
       <workItem from="1677118480760" duration="5362000" />
-      <workItem from="1677135059022" duration="4617000" />
+      <workItem from="1677135059022" duration="5004000" />
+      <workItem from="1677201133167" duration="4368000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1676970343770</created>
@@ -330,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677048396002</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="整合Quartz">
+      <created>1677145308154</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677145308154</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,12 +385,14 @@
       <path value="$PROJECT_DIR$/SpringBoot_MybatisGenerator" />
       <path value="$PROJECT_DIR$/SpringBoot_Token" />
       <path value="$PROJECT_DIR$/SpringBoot_Quartz_MEMORY" />
+      <path value="$PROJECT_DIR$/SpringBoot_MYSQL" />
     </ignored-roots>
     <MESSAGE value="测试" />
     <MESSAGE value="整合JPA" />
     <MESSAGE value="整合多线程" />
     <MESSAGE value="整合mybatisgenerator" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合mybatisgenerator" />
+    <MESSAGE value="整合Quartz" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合Quartz" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

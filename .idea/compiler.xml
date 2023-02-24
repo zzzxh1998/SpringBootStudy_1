@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringBoot_Thread" />
+        <module name="SpringBoot_MYSQL" />
         <module name="SpringBoot_MybatisGenerator" />
         <module name="SpringBoot_Token" />
         <module name="SpringBoot_JPA" />
@@ -34,6 +35,7 @@
       <module name="SB_Anno_Value" options="-parameters" />
       <module name="SpringBoot_FluentValidator" options="-parameters" />
       <module name="SpringBoot_JPA" options="-parameters" />
+      <module name="SpringBoot_MYSQL" options="-parameters" />
       <module name="SpringBoot_MybatisGenerator" options="-parameters" />
       <module name="SpringBoot_Quartz_MEMORY" options="-parameters" />
       <module name="SpringBoot_Quartz_MySQL" options="-parameters" />
