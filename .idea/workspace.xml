@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bcd413d-8368-4ad3-98fd-a2ed541abaaa" name="变更" comment="整合Quartz,使用mysql存储指令">
-      <change afterPath="$PROJECT_DIR$/SB_Gateway_Nacos/src/main/java/com/xiaohu/SbGatewayNacosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +65,15 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/D/JavaCode/SpringBootStudy_1",
-    "project.structure.last.edited": "模块",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28390804",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "906ce3e2c2cf2453d10c798795e0ffcd",
+    "spring.configuration.checksum": "ba8d81fb697ff2b587c46ccb21f45114",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +92,7 @@
       <recent name="com.xiaohu" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SbGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootFeignApplication">
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo1Application" />
@@ -183,6 +185,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootAutomaticallyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot_Automatically" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_automatically.SpringBootAutomaticallyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBoot_Feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_feign.SpringBootFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootFluentValidatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot_FluentValidator" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaohu.springboot_fluentvalidator.SpringBootFluentValidatorApplication" />
@@ -240,6 +256,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.SpringBootFeignApplication" />
+      <item itemvalue="Spring Boot.SpringBootAutomaticallyApplication" />
       <item itemvalue="Spring Boot.SbGatewayApplication" />
       <item itemvalue="Spring Boot.SbGetwayApplication" />
       <item itemvalue="Spring Boot.Demo1Application" />
@@ -283,7 +301,13 @@
       <workItem from="1677135059022" duration="5004000" />
       <workItem from="1677201133167" duration="5359000" />
       <workItem from="1677216701329" duration="9205000" />
-      <workItem from="1677227451642" duration="1530000" />
+      <workItem from="1677227451642" duration="1580000" />
+      <workItem from="1677462382402" duration="5192000" />
+      <workItem from="1677469981044" duration="59000" />
+      <workItem from="1677470114327" duration="30000" />
+      <workItem from="1677470188045" duration="649000" />
+      <workItem from="1677479888406" duration="130000" />
+      <workItem from="1677480032470" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1676970343770</created>
@@ -397,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677213616575</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="整合Quartz,使用mysql存储指令">
+      <created>1677229684448</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677229684448</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,6 +488,21 @@
     <MESSAGE value="整合Quartz" />
     <MESSAGE value="整合Quartz,使用mysql存储指令" />
     <option name="LAST_COMMIT_MESSAGE" value="整合Quartz,使用mysql存储指令" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>jar://$PROJECT_DIR$/../../WorkIDE/Maven3.8.6/apache-maven-3.8.6/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.9/spring-boot-autoconfigure-2.7.9.jar!/org/springframework/boot/autoconfigure/AutoConfigurationSorter.class</url>
+          <line>32</line>
+          <properties class="org.springframework.boot.autoconfigure.AutoConfigurationSorter.AutoConfigurationClass" method="getBefore">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

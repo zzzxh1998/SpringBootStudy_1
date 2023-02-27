@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/SpringBoot_Quartz_MEMORY/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_MYSQL/pom.xml" />
         <option value="$PROJECT_DIR$/SB_Gateway_Nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot_Automatically/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot_Feign/pom.xml" />
       </list>
     </option>
   </component>
